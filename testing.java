@@ -16,8 +16,7 @@ class testinig{
         int i=0;
         while(i+l<=e){
                 System.out.println(ss.substring(i,i+l));
-            if(word.remove(ss.substring(i,i+l))){
-                if()
+            if(word.remove(ss.substring(i,i+l)))
                 System.out.println(ss.substring(i,i+l));
                 i+=l;
             }else{
